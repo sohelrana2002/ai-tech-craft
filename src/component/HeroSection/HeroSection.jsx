@@ -1,5 +1,5 @@
 import { heroCardData } from "../../data/data";
-import Person from '../../assets/person.png'
+import AILogo from '../../assets/heroImage1.jpg'
 import Circle from '../../assets/circle.png'
 import { GoTrophy } from 'react-icons/go'
 import "./HeroSection.css";
@@ -46,10 +46,7 @@ const HeroSection = () => {
         {/* =========hero right section========= */}
         <div className="hero__right">
             <div className="bg__img">
-                <img src={Circle} alt="Circle" />
-            </div>
-            <div className="overflew">
-                <img src={Person} alt="Person" />
+                <img src={AILogo} alt="Circle" />
             </div>
 
             <div className="circle__bg"></div>
@@ -64,6 +61,11 @@ const HeroSection = () => {
                 <p>with Satisfaction</p>
               </div>
             </div>
+            
+
+            <div className="round__circle">
+                <div className="circle__bg3"></div>
+              </div>
         </div>
       </div>
     </section>
