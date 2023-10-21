@@ -1,0 +1,125 @@
+
+
+:root{
+
+  --color-primary: #231f20;
+  --color-primary-soft: #413a3c;
+  --color-most-soft: #575555;
+
+
+  --color-secondary: #73cce8;
+  --color-ternary: #fc775a;
+
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light: #d6d6d6;
+  --color-gray: gray;
+  --color-logo-Left: #6b07df;
+  --color-logo-Right: #e52cd0;
+
+  --color-black-soft: rgba(0, 0, 0, 0.1);
+  --color-white-soft: rgba(255, 255, 255, 0.1);
+
+
+
+  --width-lg-screen: 87%;
+  --width-md-screen: 90%;
+  --width-sm-screen: 92%;
+  --transition: all 0.6s ease;
+}
+
+
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+/* body{
+
+} */
+html,
+body{
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container{
+  max-width: 1500px;
+  width: var(--width-lg-screen);
+  margin: 0 auto;
+}
+
+section{
+  margin-top: 10rem;
+}
+.btn{
+  width: max-content;
+  padding: 1.2rem 3rem;
+  background: linear-gradient(to right, var(--color-logo-Left), var(--color-logo-Right));
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 58.5%;
+  }
+  .container{
+    width: var(--width-md-screen);
+  }
+  section{
+    margin-top: 8rem;
+  }
+  
+}
+
+
+/* ===========Media Queries (small device)============= */
+@media screen and (max-width: 700px) {
+  html{
+    font-size: 55.5%;
+  }
+  .container{
+    width: var(--width-sm-screen);
+  }
+  section{
+    margin-top: 6rem;
+  }
+  
+}
