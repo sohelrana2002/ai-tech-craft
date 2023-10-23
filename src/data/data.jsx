@@ -1,6 +1,9 @@
 
 
-import { HiComputerDesktop } from 'react-icons/hi2'
+// ===========for hero card data===========
+import { BsRobot, BsFillFileEarmarkCodeFill } from "react-icons/bs";
+import { FaLaptopCode, FaBullhorn } from "react-icons/fa";
+
 
 
 export const navLinks = [
@@ -32,28 +35,28 @@ export const navLinks = [
 ]
 
 export const heroCardData = [
-    {
-        id: 1,
-        icon: <HiComputerDesktop />,
-        firstTitle: "Tech",
-        lastTitle: "Development",
-    },
-    {
-        id: 2,
-        icon: <HiComputerDesktop />,
-        firstTitle: "Tech",
-        lastTitle: "Development",
-    },
-    {
-        id: 3,
-        icon: <HiComputerDesktop />,
-        firstTitle: "Tech",
-        lastTitle: "Development",
-    },
-    {
-        id: 4,
-        icon: <HiComputerDesktop />,
-        firstTitle: "Tech",
-        lastTitle: "Development",
-    },
-]
+  {
+    id: 1,
+    icon: <BsRobot />,
+    firstTitle: "AI Application",
+    lastTitle: "Development",
+  },
+  {
+    id: 2,
+    icon: <FaLaptopCode />,
+    firstTitle: "Web",
+    lastTitle: "Development",
+  },
+  {
+    id: 3,
+    icon: <BsFillFileEarmarkCodeFill />,
+    firstTitle: "Web Application",
+    lastTitle: "Development",
+  },
+  {
+    id: 4,
+    icon: <FaBullhorn />,
+    firstTitle: "Digital",
+    lastTitle: "Marketing",
+  },
+];

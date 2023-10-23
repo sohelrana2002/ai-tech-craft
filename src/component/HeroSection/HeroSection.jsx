@@ -1,7 +1,7 @@
 import { heroCardData } from "../../data/data";
-import AILogo from '../../assets/heroImage1.jpg'
-import Circle from '../../assets/circle.png'
-import { GoTrophy } from 'react-icons/go'
+import AILogo from "../../assets/heroImage1.jpg";
+import Circle from "../../assets/circle.png";
+import { GoTrophy } from "react-icons/go";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -45,27 +45,25 @@ const HeroSection = () => {
         </div>
         {/* =========hero right section========= */}
         <div className="hero__right">
-            <div className="bg__img">
-                <img src={AILogo} alt="Circle" />
+          <div className="bg__img">
+            <img src={AILogo} alt="Circle" />
+          </div>
+          <div className="circle__bg"></div>
+          <div className="circle__bg2"></div>
+          <div className="prize">
+            <div className="icon">
+              <GoTrophy />
             </div>
-
-            <div className="circle__bg"></div>
-            <div className="circle__bg2"></div>
-            <div className="prize">
-              <div className="icon">
-                <GoTrophy />
-              </div>
-              <div className="content">
-                <h1>35k+</h1>
-                <p>Case Solved</p>
-                <p>with Satisfaction</p>
-              </div>
+            <div className="content">
+              <h1>35k+</h1>
+              <p>Case Solved</p>
+              <p>with Satisfaction</p>
             </div>
-            
-
-            <div className="round__circle">
-                <div className="circle__bg3"></div>
-              </div>
+          </div>
+          
+          <div className="round__circle">
+            <div className="circle__bg3"></div>
+          </div>
         </div>
       </div>
     </section>
