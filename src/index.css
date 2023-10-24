@@ -83,6 +83,18 @@ section{
 
 
 
+/* ===========card title========== */
+.card__title{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.card__des{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-gray);
+}
+
 
 
 
