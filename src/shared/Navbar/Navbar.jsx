@@ -40,7 +40,7 @@ const Navbar = () => {
                 <li className="menu__item" key={id}>
                   <NavLink
                     to={path}
-                    className={({ isActive }) => isActive && "activeNav"}
+                    className={({ isActive }) => isActive ? "activeNav" : undefined}
                   >
                     {title}
                   </NavLink>

@@ -198,3 +198,44 @@ export const boardMember = [
     twitter: "https://twitter.com/"
   },
 ]
+
+
+// ============live rules===========
+export const liveRulesData = [
+  {
+    id: 1,
+    icon: "https://comradeweb.com/wp-content/uploads/2022/06/Frame-1380-1.svg",
+    title: "Focus on Results",
+    description: "Our clients put tremendous faith in us. And we don’t take that lightly. That is why all we do is focused on ensuring that we deliver results. There is no greater reward than seeing our clients’ reactions when our work not only fulfills their vision, but also surpasses their expectations. This is why we love doing what we do each and every day."
+  },
+  {
+    id: 2,
+    icon: "https://comradeweb.com/wp-content/uploads/2022/06/Frame-1431.svg",
+    title: "Complete Honesty",
+    description: "We work hard and are confident in our business decisions, but we’re also human. There will be times when we don’t get something right. But we’re always honest with our clients. If something is not working, we will be the first ones to bring it up. If we’ve made a mistake, we will not sweep it under the rug but instead take ownership and find a way to solve it. Because honesty builds trust and a true relationship cannot be built without trust. We believe in transparency and accountability. Simple as that."
+  },
+  {
+    id: 3,
+    icon: "https://comradeweb.com/wp-content/uploads/2022/06/Group-2.svg",
+    title: "Work as a Team",
+    description: "“To go fast, go alone. To go far, go together.” This has always been our modus operandi. We are a team of diverse individuals with skills and experiences that are unique, yet complimentary. It is through this combined skill set that our team is able to help our clients overcome their biggest hurdles and solve their toughest business growth challenges."
+  },
+  {
+    id: 4,
+    icon: "https://comradeweb.com/wp-content/uploads/2022/06/Frame-1394.svg",
+    title: "Always Innovate",
+    description: "Digital marketing is one of the most dynamic and fast-paced industries in human history. It’s not simply enough to understand how the game is played, but be prepared for how its constantly changing. Without innovation you cannot compete in today’s market. Out team invests ample time in learning and growing with this ever-changing landscape."
+  },
+  {
+    id: 5,
+    icon: "https://comradeweb.com/wp-content/uploads/2022/06/Group-3.svg",
+    title: "Committed to Our Clients",
+    description: "Without our clients we don’t have a business. Simply put. We view ourselves not as service providers, but rather, vested partners in our clients’ businesses. Both parties’ reputations and livelihoods are on the line and we take that seriously. Treating our clients with respect and acting in their best interest are among the core values to which we adhere."
+  },
+  {
+    id: 6,
+    icon: "https://comradeweb.com/wp-content/uploads/2022/06/Frame-1433.svg",
+    title: "Work Hard / Play Hard",
+    description: "We here at Comrade are truly a family. We work hard together, and we play hard together, often gathering for activities and life cycle events. We care about each other’s interests and are there to support and lift one another up. We carry this philosophy through into how we treat our clients."
+  },
+]

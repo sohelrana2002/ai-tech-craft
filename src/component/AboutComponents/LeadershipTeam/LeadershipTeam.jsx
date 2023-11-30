@@ -6,8 +6,8 @@ import './LeadershipTeam.css'
 const LeadershipTeam = () => {
     const [buttonActive, setButtonActive] = useState(false);
 
-    const leadershipResult = leaderShipData?.map((curElem) => <LCard {...curElem} />);
-    const BoardMemberResult = boardMember?.map((curElem) => <LCard {...curElem} />);
+    const leadershipResult = leaderShipData?.map((curElem) => <LCard {...curElem} key={curElem.id} />);
+    const BoardMemberResult = boardMember?.map((curElem) => <LCard {...curElem} key={curElem.id} />);
 
 
   return (
