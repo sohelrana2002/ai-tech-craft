@@ -66,6 +66,23 @@
     width: 100%;
     
 }
+.call{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 1.6rem;
+}
+.call svg{
+    color: var(--color-logo-Left);
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
 
 
 

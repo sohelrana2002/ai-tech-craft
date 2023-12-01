@@ -239,3 +239,32 @@ export const liveRulesData = [
     description: "We here at Comrade are truly a family. We work hard together, and we play hard together, often gathering for activities and life cycle events. We care about each other’s interests and are there to support and lift one another up. We carry this philosophy through into how we treat our clients."
   },
 ]
+
+
+// ========slider review==========
+export const reviewSliderData = [
+  {
+    id:1,
+    img : "https://www.dataiku.com/wp-content/uploads/2023/07/deloitte.png",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
+  },
+  {
+    id:2,
+    img : "https://www.dataiku.com/wp-content/uploads/2023/07/Pfizer-1.png",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
+  },
+  {
+    id:3,
+    img : "https://www.dataiku.com/wp-content/uploads/2023/07/Standart-Chartered-1.png",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
+  },
+  {
+    id:4,
+    img : "https://www.dataiku.com/wp-content/uploads/2023/07/Vestas-1.png",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
+  },
+]
