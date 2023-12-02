@@ -83,7 +83,7 @@ export const servicesData = [
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
   },
   {
-    id: 1,
+    id: 4,
     icon: <FaBullhorn />,
     title: "Digital Marketing",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores exercitationem deleniti cupiditate et repellendus? Culpa, ea laboriosam laudantium ut rerum fugit unde dolores, ratione iusto id dolorem deserunt ipsa?",
@@ -267,4 +267,93 @@ export const reviewSliderData = [
     title: "Lorem ipsum dolor sit amet.",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, tempora optio! Vitae enim repellendus eligendi aut corrupti impedit expedita tempora accusantium temporibus tenetur doloribus, ipsum eos? Modi et alias expedita!",
   },
+]
+
+
+// =======client success data============
+export const clientSuccessData = [
+  {
+    id: 1,
+    img: "https://comradeweb.com/wp-content/uploads/2020/07/AMT.webp",
+    rate: {
+      percent1: "177%",
+      title1: "SEO LEAD TRAFFIC INCREASED",
+
+      percent2: "171%",
+      title2: "PPC CONVERSION IMPROVED",
+
+      percent3: "33.5%",
+      title3: "BOUNCE RATE IMPROVED",
+    },
+    category: "Ecommerce",
+    categoryTitle: "American Tent"
+  },
+
+  {
+    id: 2,
+    img: "https://comradeweb.com/wp-content/uploads/2020/04/BAR-img.webp",
+    rate: {
+      percent1: "650%",
+      title1: "INCREASE IN CLIENT INQUIRIES",
+
+      percent2: "26%",
+      title2: "DECREASE IN COST PER LEAD",
+
+    },
+    category: "Legal",
+    categoryTitle: "Barr & Young Attorneys"
+  },
+
+  {
+    id: 3,
+    img: "https://comradeweb.com/wp-content/uploads/2020/07/Blackhawk-Supply-feat-img.webp",
+    rate: {
+      percent1: "60%",
+      title1: "REVENUE YOY INCREASE",
+
+      percent2: "42%",
+      title2: "CONVERSION RATE IMPROVEMENT",
+
+      percent3: "210%",
+      title3: "TARGETED TRAFFIC INCREASED",
+    },
+    category: "Ecommerce",
+    categoryTitle: "Blackhawk Supply"
+  },
+
+  {
+    id: 4,
+    img: "https://comradeweb.com/wp-content/uploads/2020/07/EUROPE-FeaturedImage.webp",
+    rate: {
+      percent1: "25%",
+      title1: "IMPROVEMENT IN CONVERSION RATE",
+
+      percent2: "49%",
+      title2: "INCREASE IN TARGETED TRAFFIC FROM SEO",
+    },
+    category: "Ecommerce",
+    categoryTitle: "Europa Eyewear"
+  },
+]
+
+
+// =========marketing agency slider data============
+export const marketingAgencyData = [
+  {
+    id: 1,
+    // video: "https://comradeweb.com/wp-content/uploads/2018/12/COMRADE-V3.mp4"
+    images: "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/comrade-img-2-scaled-2_.jpg.webp"
+  },
+  {
+    id: 2,
+    images: "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/comrade-img-2-scaled-2_.jpg.webp"
+  },
+  {
+    id: 3,
+    images: "https://comradeweb.com/wp-content/uploads/2020/10/comrade-img-3.webp"
+  },
+  {
+    id: 4,
+    images: "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Comrade-workers..jpg.webp"
+  }
 ]
