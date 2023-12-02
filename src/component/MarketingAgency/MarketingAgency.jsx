@@ -67,37 +67,26 @@ const MarketingAgency = () => {
 
 
         <div className="mAgency__right">
-          
-        </div>
-      </div>
-      <Swiper
+          <Swiper
             slidesPerView={1}
-            spaceBetween={0}
+            spaceBetween={10}
             pagination={{
               clickable: true,
             }}
             modules={[Pagination]}
             className="mySwiper"
           >
-            {/* {marketingAgencyData &&
+            {marketingAgencyData &&
               marketingAgencyData?.map((curElem) => {
                 return (
                   <SwiperSlide key={curElem.id}>
                     <MarketingAgencyCard {...curElem} />
                   </SwiperSlide>
                 );
-              })} */}
-
-            <SwiperSlide>
-              <img style={{width: "600px"}} src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Comrade-workers..jpg.webp" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img style={{width: "600px"}} src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Comrade-workers..jpg.webp" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img style={{width: "600px"}} src="https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Comrade-workers..jpg.webp" alt="" />
-            </SwiperSlide>
+              })}
           </Swiper>
+        </div>
+      </div>
     </section>
   );
 };

@@ -1,9 +1,12 @@
-import React from 'react'
+
+import './MarketingAgencyCard.css'
 
 const MarketingAgencyCard = ({video, images}) => {
   return (
     <div className='mA__card'>
-        <img src={images} alt="" />
+        {
+          video ? <video src={video} autoPlay muted className='mA__media-video' /> : <img src={images} className='mA__media'/>
+        }
     </div>
   )
 }

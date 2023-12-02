@@ -11,6 +11,9 @@ import MarketingBenefit from "../../component/MarketingBenefit/MarketingBenefit"
 import CSuccessSlider from "../../component/CSuccessSlider/CSuccessSlider";
 import MarketingAudit from "../../component/MarketingAudit/MarketingAudit";
 import MarketingAgency from "../../component/MarketingAgency/MarketingAgency";
+import Faq from "../../shared/Faq/Faq";
+import { faqData } from "../../data/data";
+import RequestSubmit from "../../shared/RequestSubmit/RequestSubmit";
 
 const Home = () => {
   return (
@@ -37,11 +40,13 @@ const Home = () => {
         des={webDescription}
       />
       <MarketingBenefit />
-      < CSuccessSlider />
+      <CSuccessSlider />
       <MarketingAudit />
       <MarketingAgency />
+      <Faq data={faqData} />
+      <RequestSubmit />
 
-      <OurServices />
+      {/* <OurServices /> */}
     </div>
   );
 };

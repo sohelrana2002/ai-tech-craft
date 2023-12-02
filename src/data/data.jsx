@@ -342,7 +342,7 @@ export const marketingAgencyData = [
   {
     id: 1,
     // video: "https://comradeweb.com/wp-content/uploads/2018/12/COMRADE-V3.mp4"
-    images: "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/comrade-img-2-scaled-2_.jpg.webp"
+    video: "https://comradeweb.com/wp-content/uploads/2018/12/COMRADE-V3.mp4"
   },
   {
     id: 2,
@@ -356,4 +356,39 @@ export const marketingAgencyData = [
     id: 4,
     images: "https://comradeweb.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/03/Comrade-workers..jpg.webp"
   }
+]
+
+
+// ============faq data=========
+export const faqData = [
+  {
+    id: 1,
+    question: "How does your Digital Marketing Process work?",
+    answer: " Research. Strategy. Action. Tracking Growth. To develop a successful website and digital marketing campaign, we follow these steps. To create business growth plans that will prove successful in our client's current competitive industry landscape, our Chicago, IL digital agency identifies and research their pain points. The next step is to develop marketing strategies to overcome any potential obstacles along the way to meeting our clients' revenue targets. The third step is to implement the strategy as quickly, strategically, and efficiently as possible among all possible marketing channels. Lastly, our we must be accountable for our performance based on the established KPIs and adjust the plan accordingly."
+  },
+  {
+    id: 2,
+    question: "What's the advantage of hiring Comrade instead of one of other internet marketing agencies?",
+    answer: "Our team is nothing short of world-class. Each is an expert in their own field. This includes search engine optimization to web design, content marketing to business strategy, social media marketing to lead conversion, digital advertising, and much more. Moreover, as a client, you won't have to outsource your website development or marketing. In addition to providing cost-effective growth strategies for your revenue, our team does all our work in-house. We offer guarantee packages for select clients. After two consecutive months of meeting targets, we start with half the budget, then switch to the full rate. Contact us to see if you qualify. "
+  },
+  {
+    id: 3,
+    question: "What industries do you specialize in?",
+    answer: "As a full-service digital marketing agency, we serve clients in a wide range of industries. Our services extend beyond B2B and B2C eCommerce to manufacturers, medical providers, real estate agents, senior living facilities, local businesses, legal professionals, and a wide variety of other businesses. Our goals, however, are always the same— to deliver real, tangible results. That’s why we never take on a project or client in an industry unless we can prove to them how we will succeed. "
+  },
+  {
+    id: 4,
+    question: "How much do your services cost?",
+    answer: "It is important to consider many factors when planning a marketing campaign, as every business is unique. Do you prefer to grow your business gradually but steadily or aggressively? Do you plan to include many complicated features on the website, or will it be mostly for the purpose of providing information? Each of these factors affects your overall costs. In general, high-performance websites cost between $10,000 and $40,000. Your current website's quality and performance will determine the price of digital marketing solutions. Depending on the client, the monthly cost can range from $2,500 to over $10,000. Our marketing budget averages $4,000 per month. "
+  },
+  {
+    id: 5,
+    question: "Do you offer a Guarantee for your Digital Marketing Services?",
+    answer: "One of the most important decisions you'll make is choosing the right web development and marketing agency. You should consider hiring an advertising agency that works within your guidelines, is transparent, and stands behind its work. This is what makes us different. We are one of the select few digital marketing agencies that guarantee quality work. As a result, we stand behind the work our team accomplishes, ensuring that clients will see results. After two consecutive months of providing our guaranteed package, we move to the full rate we had negotiated once we achieve our goals. Contact us to find out if you qualify. "
+  },
+  {
+    id: 6,
+    question: "How long will it take to start seeing improvements in sales?",
+    answer: "A web design and development project typically yields results within a short period. However, some elements of your digital marketing strategy will take time to yield results. Within 90 days of starting an SEO campaign, we typically see tangible results, accompanied by a steady rise in sales. However, you can begin seeing results from PPC campaigns within a month. It is critical to remember that each of your marketing tactics has a place in your overall strategy, so don't overlook SEO or content because of their longer ramp-up time. Our team will gladly explain the reasons behind this to you during your consultation. "
+  },
 ]

@@ -1,24 +1,28 @@
-.mAgency__container{
+.mAgency__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10rem;
 }
-.mAgency__left{
+
+.mAgency__left {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
-.mAgency__left > .plan{
+
+.mAgency__left>.plan {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.mAgency__left > .plan li{
+
+.mAgency__left>.plan li {
     margin: 1rem 0 1rem 2rem;
     position: relative;
     padding-left: 3rem;
 }
-.mAgency__left > .plan li::after{
+
+.mAgency__left>.plan li::after {
     content: '';
     position: absolute;
     width: 15px;
@@ -29,11 +33,13 @@
     top: 10%;
     /* transform: translateY(-50%); */
 }
-.mAgency__details{
+
+.mAgency__details {
     display: flex;
     gap: 1rem;
 }
-.mAgency__card{
+
+.mAgency__card {
     max-width: 120px;
     width: 100%;
     display: flex;
@@ -41,10 +47,63 @@
     gap: 1rem;
     align-items: flex-start;
 }
-.mAgency__details .card__title{
+
+.mAgency__details .card__title {
     font-size: 1.5rem;
 }
-.mAgency__right{
+
+.mAgency__right {
     width: 100%;
-    background: red;
+    height: 480px;
+    border-radius: 1rem;
+    border: 2px solid var(--color-black-soft);
+    overflow: hidden;
+}
+
+.mAgency__right>.mySwiper {
+    max-width: 620px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mAgency__right .swiper-pagination-bullet {
+    margin-bottom: 1rem;
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* ===========Media Queries (mediam device)============= */
+@media screen and (max-width: 1024px) {
+    .mAgency__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 7rem;
+    }
+}
+
+
+/* ===========Media Queries (small device)============= */
+@media screen and (max-width: 700px) {
+    .mAgency__right {
+        width: 100%;
+        height: 370px;
+        border-radius: 1rem;
+        border: 2px solid var(--color-black-soft);
+        overflow: hidden;
+    }
+    .mAgency__right .swiper-pagination-bullet {
+        width: 20px;
+    }
+    .mAgency__details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        row-gap: 3rem;
+    }
+    .mAgency__card {
+        margin: 0 auto;
+    }
 }
